@@ -105,17 +105,7 @@
 		83F550E0155E030800E95D3B /* objc-cache-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83F550DF155E030800E95D3B /* objc-cache-old.mm */; };
 		87BB4EA70EC39854005D08E1 /* objc-probes.d in Sources */ = {isa = PBXBuildFile; fileRef = 87BB4E900EC39633005D08E1 /* objc-probes.d */; };
 		9672F7EE14D5F488007CEC96 /* NSObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9672F7ED14D5F488007CEC96 /* NSObject.mm */; };
-		AECD8AA22413D5AC00BCA790 /* BlockTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = AECD8AA12413D5AC00BCA790 /* BlockTest.mm */; };
-		AECD8AAC2413E2EA00BCA790 /* OCMemoryTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = AECD8AAB2413E2EA00BCA790 /* OCMemoryTest.mm */; };
-		AED61C66240684230004633C /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = AED61C65240684230004633C /* main.mm */; };
-		AED61C6C2406843A0004633C /* MNJAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = AED61C6B2406843A0004633C /* MNJAnimal.m */; };
-		AED61C6F240684A50004633C /* MNJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = AED61C6E240684A50004633C /* MNJDog.m */; };
 		AED61C70240684B30004633C /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC0630554660B00DB518D /* libobjc.A.dylib */; };
-		AED61CBC240B80EC0004633C /* MNJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AED61CBB240B80EC0004633C /* MNJObject.m */; };
-		AED61CBF240B810B0004633C /* MNJTaggedPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = AED61CBE240B810B0004633C /* MNJTaggedPointer.m */; };
-		AED61CC2240B9EED0004633C /* MNJFather.m in Sources */ = {isa = PBXBuildFile; fileRef = AED61CC1240B9EED0004633C /* MNJFather.m */; };
-		AED61CC5240B9F450004633C /* MNJSon.mm in Sources */ = {isa = PBXBuildFile; fileRef = AED61CC4240B9F450004633C /* MNJSon.mm */; };
-		AED61CC8240B9F960004633C /* MNJGrandSon.m in Sources */ = {isa = PBXBuildFile; fileRef = AED61CC7240B9F950004633C /* MNJGrandSon.m */; };
 		E8923DA5116AB2820071B552 /* objc-block-trampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */; };
 /* End PBXBuildFile section */
 
@@ -266,29 +256,7 @@
 		83F550DF155E030800E95D3B /* objc-cache-old.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "objc-cache-old.mm"; path = "runtime/objc-cache-old.mm"; sourceTree = "<group>"; };
 		87BB4E900EC39633005D08E1 /* objc-probes.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; name = "objc-probes.d"; path = "runtime/objc-probes.d"; sourceTree = "<group>"; };
 		9672F7ED14D5F488007CEC96 /* NSObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NSObject.mm; path = runtime/NSObject.mm; sourceTree = "<group>"; };
-		AECD8AA12413D5AC00BCA790 /* BlockTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BlockTest.mm; sourceTree = "<group>"; };
-		AECD8AA32413E1C300BCA790 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
-		AECD8AAA2413E2EA00BCA790 /* OCMemoryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMemoryTest.h; sourceTree = "<group>"; };
-		AECD8AAB2413E2EA00BCA790 /* OCMemoryTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCMemoryTest.mm; sourceTree = "<group>"; };
-		AECD8AAD2413E38F00BCA790 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		AED61C63240684230004633C /* MNJLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MNJLearn; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED61C65240684230004633C /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		AED61C6A2406843A0004633C /* MNJAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJAnimal.h; sourceTree = "<group>"; };
-		AED61C6B2406843A0004633C /* MNJAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNJAnimal.m; sourceTree = "<group>"; };
-		AED61C6D240684A50004633C /* MNJDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJDog.h; sourceTree = "<group>"; };
-		AED61C6E240684A50004633C /* MNJDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNJDog.m; sourceTree = "<group>"; };
-		AED61C712406855A0004633C /* MNJMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJMacro.h; sourceTree = "<group>"; };
-		AED61C72240685F60004633C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		AED61CBA240B80EC0004633C /* MNJObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJObject.h; sourceTree = "<group>"; };
-		AED61CBB240B80EC0004633C /* MNJObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNJObject.m; sourceTree = "<group>"; };
-		AED61CBD240B810B0004633C /* MNJTaggedPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJTaggedPointer.h; sourceTree = "<group>"; };
-		AED61CBE240B810B0004633C /* MNJTaggedPointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNJTaggedPointer.m; sourceTree = "<group>"; };
-		AED61CC0240B9EED0004633C /* MNJFather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJFather.h; sourceTree = "<group>"; };
-		AED61CC1240B9EED0004633C /* MNJFather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNJFather.m; sourceTree = "<group>"; };
-		AED61CC3240B9F450004633C /* MNJSon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJSon.h; sourceTree = "<group>"; };
-		AED61CC4240B9F450004633C /* MNJSon.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MNJSon.mm; sourceTree = "<group>"; };
-		AED61CC6240B9F950004633C /* MNJGrandSon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNJGrandSon.h; sourceTree = "<group>"; };
-		AED61CC7240B9F950004633C /* MNJGrandSon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNJGrandSon.m; sourceTree = "<group>"; };
 		BC8B5D1212D3D48100C78A5B /* libauto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libauto.dylib; path = /usr/lib/libauto.dylib; sourceTree = "<absolute>"; };
 		D2AAC0630554660B00DB518D /* libobjc.A.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libobjc.A.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8923D9C116AB2820071B552 /* objc-blocktramps-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-i386.s"; path = "runtime/objc-blocktramps-i386.s"; sourceTree = "<group>"; };
@@ -336,7 +304,6 @@
 				08FB7795FE84155DC02AAC07 /* Source */,
 				838485B20D6D67F900CEA253 /* Other */,
 				7AF7677A220C299900D3CB66 /* LGTest */,
-				AED61C64240684230004633C /* MNJLearn */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 				F9BCC72A205C6A1600DD9AFC /* Frameworks */,
 			);
@@ -574,35 +541,6 @@
 			name = "Project Headers";
 			sourceTree = "<group>";
 		};
-		AED61C64240684230004633C /* MNJLearn */ = {
-			isa = PBXGroup;
-			children = (
-				AED61C65240684230004633C /* main.mm */,
-				AED61C6A2406843A0004633C /* MNJAnimal.h */,
-				AED61C6B2406843A0004633C /* MNJAnimal.m */,
-				AED61C6D240684A50004633C /* MNJDog.h */,
-				AED61C6E240684A50004633C /* MNJDog.m */,
-				AED61C712406855A0004633C /* MNJMacro.h */,
-				AED61C72240685F60004633C /* PrefixHeader.pch */,
-				AED61CBA240B80EC0004633C /* MNJObject.h */,
-				AED61CBB240B80EC0004633C /* MNJObject.m */,
-				AED61CBD240B810B0004633C /* MNJTaggedPointer.h */,
-				AED61CBE240B810B0004633C /* MNJTaggedPointer.m */,
-				AED61CC0240B9EED0004633C /* MNJFather.h */,
-				AED61CC1240B9EED0004633C /* MNJFather.m */,
-				AED61CC3240B9F450004633C /* MNJSon.h */,
-				AED61CC4240B9F450004633C /* MNJSon.mm */,
-				AED61CC6240B9F950004633C /* MNJGrandSon.h */,
-				AED61CC7240B9F950004633C /* MNJGrandSon.m */,
-				AECD8AA32413E1C300BCA790 /* BlockTest.h */,
-				AECD8AA12413D5AC00BCA790 /* BlockTest.mm */,
-				AECD8AAA2413E2EA00BCA790 /* OCMemoryTest.h */,
-				AECD8AAB2413E2EA00BCA790 /* OCMemoryTest.mm */,
-				AECD8AAD2413E38F00BCA790 /* Common.h */,
-			);
-			path = MNJLearn;
-			sourceTree = "<group>";
-		};
 		F9BCC72A205C6A1600DD9AFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -819,16 +757,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED61C66240684230004633C /* main.mm in Sources */,
-				AECD8AAC2413E2EA00BCA790 /* OCMemoryTest.mm in Sources */,
-				AED61CC8240B9F960004633C /* MNJGrandSon.m in Sources */,
-				AED61C6F240684A50004633C /* MNJDog.m in Sources */,
-				AED61CBC240B80EC0004633C /* MNJObject.m in Sources */,
-				AED61CBF240B810B0004633C /* MNJTaggedPointer.m in Sources */,
-				AED61C6C2406843A0004633C /* MNJAnimal.m in Sources */,
-				AECD8AA22413D5AC00BCA790 /* BlockTest.mm in Sources */,
-				AED61CC2240B9EED0004633C /* MNJFather.m in Sources */,
-				AED61CC5240B9F450004633C /* MNJSon.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
