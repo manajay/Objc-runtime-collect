@@ -33,7 +33,7 @@
 #include <mach-o/loader.h>
 
 /* dynamically loading Mach-O object files that contain Objective-C code */
-
+// module 是什么, 这里说的是 mach-o 么
 OBJC_EXPORT long objc_loadModules (
 	char * _Nullable modlist[_Nullable], 
 	void * _Nullable errStream,

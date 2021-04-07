@@ -90,8 +90,6 @@
 		838486250D6D68F000CEA253 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 838486230D6D68F000CEA253 /* List.m */; };
 		838486260D6D68F000CEA253 /* List.h in Headers */ = {isa = PBXBuildFile; fileRef = 838486240D6D68F000CEA253 /* List.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		838486280D6D6A2400CEA253 /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485BD0D6D687300CEA253 /* message.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83A4AEDC1EA0840800ACADDE /* module.modulemap in Headers */ = {isa = PBXBuildFile; fileRef = 83A4AED71EA06D9D00ACADDE /* module.modulemap */; settings = {ATTRIBUTES = (Public, ); }; };
-		83A4AEDE1EA08C7200ACADDE /* ObjectiveC.apinotes in Headers */ = {isa = PBXBuildFile; fileRef = 83A4AEDD1EA08C5700ACADDE /* ObjectiveC.apinotes */; settings = {ATTRIBUTES = (Public, ); }; };
 		83B1A8BE0FF1AC0D0019EA5B /* objc-msg-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 83B1A8BC0FF1AC0D0019EA5B /* objc-msg-simulator-i386.s */; };
 		83BE02E40FCCB23400661494 /* objc-file-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83BE02E30FCCB23400661494 /* objc-file-old.mm */; };
 		83BE02E80FCCB24D00661494 /* objc-file-old.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE02E50FCCB24D00661494 /* objc-file-old.h */; };
@@ -555,9 +553,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A4AEDE1EA08C7200ACADDE /* ObjectiveC.apinotes in Headers */,
 				75A95051202BAA9A00D7D56F /* objc-locks.h in Headers */,
-				83A4AEDC1EA0840800ACADDE /* module.modulemap in Headers */,
 				830F2A980D738DC200392440 /* hashtable.h in Headers */,
 				838485BF0D6D687300CEA253 /* hashtable2.h in Headers */,
 				838486260D6D68F000CEA253 /* List.h in Headers */,
@@ -679,7 +675,7 @@
 				TargetAttributes = {
 					7AF76778220C299900D3CB66 = {
 						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = 6A24J63JJH;
+						DevelopmentTeam = 43PKU45TAJ;
 						ProvisioningStyle = Automatic;
 					};
 					AED61C62240684230004633C = {
@@ -1107,10 +1103,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 6A24J63JJH;
+				DEVELOPMENT_TEAM = 43PKU45TAJ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1164,10 +1160,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 6A24J63JJH;
+				DEVELOPMENT_TEAM = 43PKU45TAJ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

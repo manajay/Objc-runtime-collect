@@ -37,7 +37,7 @@ extern void (*callbackFunction)( Class, Category );
 
 
 /**********************************************************************************
-* objc_loadModule.
+* objc_loadModule. 非线程安全
 *
 * NOTE: Loading isn't really thread safe.  If a load message recursively calls
 * objc_loadModules() both sets will be loaded correctly, but if the original
