@@ -8,18 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		33B571A71FE3A49100FCE649 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B571A61FE3A49100FCE649 /* main.c */; };
-		AE77245F2526EA86007A88BA /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F83155243DDC4400E16D08 /* libobjc.A.dylib */; };
-		AE7724602526EA86007A88BA /* libobjc.A.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = C1F83155243DDC4400E16D08 /* libobjc.A.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		AE7724C82526F957007A88BA /* MNJSon.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE7724B22526F956007A88BA /* MNJSon.mm */; };
-		AE7724C92526F957007A88BA /* MNJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7724B32526F956007A88BA /* MNJObject.m */; };
-		AE7724CA2526F957007A88BA /* MNJAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7724B62526F956007A88BA /* MNJAnimal.m */; };
-		AE7724CB2526F957007A88BA /* MNJGrandSon.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7724B72526F957007A88BA /* MNJGrandSon.m */; };
-		AE7724CC2526F957007A88BA /* MNJTaggedPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7724BC2526F957007A88BA /* MNJTaggedPointer.m */; };
-		AE7724CD2526F957007A88BA /* MNJFather.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7724C02526F957007A88BA /* MNJFather.m */; };
-		AE7724CE2526F957007A88BA /* MNJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7724C12526F957007A88BA /* MNJDog.m */; };
-		AE7724CF2526F957007A88BA /* BlockTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE7724C42526F957007A88BA /* BlockTest.mm */; };
-		AE7724D02526F957007A88BA /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE7724C52526F957007A88BA /* main.mm */; };
-		AE7724D12526F957007A88BA /* OCMemoryTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE7724C72526F957007A88BA /* OCMemoryTest.mm */; };
 		C1F83156243DDC4400E16D08 /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F83155243DDC4400E16D08 /* libobjc.A.dylib */; };
 		C1F83157243DDC4400E16D08 /* libobjc.A.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = C1F83155243DDC4400E16D08 /* libobjc.A.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -33,26 +21,6 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
-		};
-		AE7724552526EA56007A88BA /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		AE7724612526EA86007A88BA /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AE7724602526EA86007A88BA /* libobjc.A.dylib in Embed Libraries */,
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C1F83158243DDC4400E16D08 /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -72,28 +40,6 @@
 		330CB39B1FEBFFFA001FD41C /* objc-inspect.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "objc-inspect.xcconfig"; sourceTree = "<group>"; };
 		338049DB1FE3CAAE003488DC /* objc-inspect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc-inspect"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B571A61FE3A49100FCE649 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		AE7724572526EA56007A88BA /* ObjC-Info */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-Info"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE7724B22526F956007A88BA /* MNJSon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MNJSon.mm; path = ../../../MNJLearn/MNJSon.mm; sourceTree = "<group>"; };
-		AE7724B32526F956007A88BA /* MNJObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNJObject.m; path = ../../../MNJLearn/MNJObject.m; sourceTree = "<group>"; };
-		AE7724B42526F956007A88BA /* MNJDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJDog.h; path = ../../../MNJLearn/MNJDog.h; sourceTree = "<group>"; };
-		AE7724B52526F956007A88BA /* MNJSon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJSon.h; path = ../../../MNJLearn/MNJSon.h; sourceTree = "<group>"; };
-		AE7724B62526F956007A88BA /* MNJAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNJAnimal.m; path = ../../../MNJLearn/MNJAnimal.m; sourceTree = "<group>"; };
-		AE7724B72526F957007A88BA /* MNJGrandSon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNJGrandSon.m; path = ../../../MNJLearn/MNJGrandSon.m; sourceTree = "<group>"; };
-		AE7724B92526F957007A88BA /* MNJTaggedPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJTaggedPointer.h; path = ../../../MNJLearn/MNJTaggedPointer.h; sourceTree = "<group>"; };
-		AE7724BA2526F957007A88BA /* MNJObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJObject.h; path = ../../../MNJLearn/MNJObject.h; sourceTree = "<group>"; };
-		AE7724BB2526F957007A88BA /* MNJFather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJFather.h; path = ../../../MNJLearn/MNJFather.h; sourceTree = "<group>"; };
-		AE7724BC2526F957007A88BA /* MNJTaggedPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNJTaggedPointer.m; path = ../../../MNJLearn/MNJTaggedPointer.m; sourceTree = "<group>"; };
-		AE7724BD2526F957007A88BA /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = ../../../MNJLearn/Common.h; sourceTree = "<group>"; };
-		AE7724BE2526F957007A88BA /* MNJMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJMacro.h; path = ../../../MNJLearn/MNJMacro.h; sourceTree = "<group>"; };
-		AE7724BF2526F957007A88BA /* OCMemoryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMemoryTest.h; path = ../../../MNJLearn/OCMemoryTest.h; sourceTree = "<group>"; };
-		AE7724C02526F957007A88BA /* MNJFather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNJFather.m; path = ../../../MNJLearn/MNJFather.m; sourceTree = "<group>"; };
-		AE7724C12526F957007A88BA /* MNJDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNJDog.m; path = ../../../MNJLearn/MNJDog.m; sourceTree = "<group>"; };
-		AE7724C22526F957007A88BA /* MNJGrandSon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJGrandSon.h; path = ../../../MNJLearn/MNJGrandSon.h; sourceTree = "<group>"; };
-		AE7724C32526F957007A88BA /* BlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockTest.h; path = ../../../MNJLearn/BlockTest.h; sourceTree = "<group>"; };
-		AE7724C42526F957007A88BA /* BlockTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BlockTest.mm; path = ../../../MNJLearn/BlockTest.mm; sourceTree = "<group>"; };
-		AE7724C52526F957007A88BA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = ../../../MNJLearn/main.mm; sourceTree = "<group>"; };
-		AE7724C62526F957007A88BA /* MNJAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNJAnimal.h; path = ../../../MNJLearn/MNJAnimal.h; sourceTree = "<group>"; };
-		AE7724C72526F957007A88BA /* OCMemoryTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OCMemoryTest.mm; path = ../../../MNJLearn/OCMemoryTest.mm; sourceTree = "<group>"; };
 		C1F83155243DDC4400E16D08 /* libobjc.A.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libobjc.A.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,14 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE7724542526EA56007A88BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE77245F2526EA86007A88BA /* libobjc.A.dylib in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,10 +60,8 @@
 			children = (
 				330CB39B1FEBFFFA001FD41C /* objc-inspect.xcconfig */,
 				33B571A51FE3A49100FCE649 /* Source */,
-				AE7724582526EA56007A88BA /* ObjC-Info */,
 				33B571AB1FE3A4E200FCE649 /* Frameworks */,
 				338049DB1FE3CAAE003488DC /* objc-inspect */,
-				AE7724572526EA56007A88BA /* ObjC-Info */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,34 +80,6 @@
 				C1F83155243DDC4400E16D08 /* libobjc.A.dylib */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AE7724582526EA56007A88BA /* ObjC-Info */ = {
-			isa = PBXGroup;
-			children = (
-				AE7724C32526F957007A88BA /* BlockTest.h */,
-				AE7724C42526F957007A88BA /* BlockTest.mm */,
-				AE7724BD2526F957007A88BA /* Common.h */,
-				AE7724C52526F957007A88BA /* main.mm */,
-				AE7724C62526F957007A88BA /* MNJAnimal.h */,
-				AE7724B62526F956007A88BA /* MNJAnimal.m */,
-				AE7724B42526F956007A88BA /* MNJDog.h */,
-				AE7724C12526F957007A88BA /* MNJDog.m */,
-				AE7724BB2526F957007A88BA /* MNJFather.h */,
-				AE7724C02526F957007A88BA /* MNJFather.m */,
-				AE7724C22526F957007A88BA /* MNJGrandSon.h */,
-				AE7724B72526F957007A88BA /* MNJGrandSon.m */,
-				AE7724BE2526F957007A88BA /* MNJMacro.h */,
-				AE7724BA2526F957007A88BA /* MNJObject.h */,
-				AE7724B32526F956007A88BA /* MNJObject.m */,
-				AE7724B52526F956007A88BA /* MNJSon.h */,
-				AE7724B22526F956007A88BA /* MNJSon.mm */,
-				AE7724B92526F957007A88BA /* MNJTaggedPointer.h */,
-				AE7724BC2526F957007A88BA /* MNJTaggedPointer.m */,
-				AE7724BF2526F957007A88BA /* OCMemoryTest.h */,
-				AE7724C72526F957007A88BA /* OCMemoryTest.mm */,
-			);
-			path = "ObjC-Info";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,40 +103,18 @@
 			productReference = 338049DB1FE3CAAE003488DC /* objc-inspect */;
 			productType = "com.apple.product-type.tool";
 		};
-		AE7724562526EA56007A88BA /* ObjC-Info */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE77245D2526EA56007A88BA /* Build configuration list for PBXNativeTarget "ObjC-Info" */;
-			buildPhases = (
-				AE7724532526EA56007A88BA /* Sources */,
-				AE7724542526EA56007A88BA /* Frameworks */,
-				AE7724552526EA56007A88BA /* CopyFiles */,
-				AE7724612526EA86007A88BA /* Embed Libraries */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ObjC-Info";
-			productName = "ObjC-Info";
-			productReference = AE7724572526EA56007A88BA /* ObjC-Info */;
-			productType = "com.apple.product-type.tool";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		335562AE1FE3A17F00BD601B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = alchemistxxd;
 				TargetAttributes = {
 					33B571A31FE3A49100FCE649 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Manual;
-					};
-					AE7724562526EA56007A88BA = {
-						CreatedOnToolsVersion = 12.0.1;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -238,6 +124,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 335562AD1FE3A17F00BD601B;
 			productRefGroup = 335562AD1FE3A17F00BD601B;
@@ -245,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				33B571A31FE3A49100FCE649 /* objc-inspect */,
-				AE7724562526EA56007A88BA /* ObjC-Info */,
 			);
 		};
 /* End PBXProject section */
@@ -256,23 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B571A71FE3A49100FCE649 /* main.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE7724532526EA56007A88BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE7724CA2526F957007A88BA /* MNJAnimal.m in Sources */,
-				AE7724CB2526F957007A88BA /* MNJGrandSon.m in Sources */,
-				AE7724CE2526F957007A88BA /* MNJDog.m in Sources */,
-				AE7724C92526F957007A88BA /* MNJObject.m in Sources */,
-				AE7724CC2526F957007A88BA /* MNJTaggedPointer.m in Sources */,
-				AE7724C82526F957007A88BA /* MNJSon.mm in Sources */,
-				AE7724D02526F957007A88BA /* main.mm in Sources */,
-				AE7724CD2526F957007A88BA /* MNJFather.m in Sources */,
-				AE7724D12526F957007A88BA /* OCMemoryTest.mm in Sources */,
-				AE7724CF2526F957007A88BA /* BlockTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +163,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -301,8 +171,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -351,6 +223,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -358,8 +231,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -389,7 +264,7 @@
 		33B571A91FE3A49100FCE649 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,40 +275,11 @@
 		33B571AA1FE3A49100FCE649 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = Release;
-		};
-		AE77245B2526EA56007A88BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		AE77245C2526EA56007A88BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -454,15 +300,6 @@
 			buildConfigurations = (
 				33B571A91FE3A49100FCE649 /* Debug */,
 				33B571AA1FE3A49100FCE649 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE77245D2526EA56007A88BA /* Build configuration list for PBXNativeTarget "ObjC-Info" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE77245B2526EA56007A88BA /* Debug */,
-				AE77245C2526EA56007A88BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
